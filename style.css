@@ -272,6 +272,31 @@ p {
 }
 
 /* end features game section  */
+#tag-games{
+    padding: 80px 0;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.tag-games-content{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+.tag-games-content2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.tag-items{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background-color: white;
+    border: 10px solid transparent;
+    
+}
+.tag-items h5{
+    margin-left: 10px;
+}
 
 
 
