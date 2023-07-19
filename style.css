@@ -131,8 +131,85 @@ body {
     list-style: none;
     padding: 8px 0;
 }
-
-
+/* header section ends  */
+ 
+/* vide online games section starts  */
+#online-video-games{
+    text-align: center;
+    padding: 50px 0;
+}
+.title span{
+    font-size: 2rem;
+    font-weight: 700;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p{
+    color: #534C64;
+    margin: 15px 0;
+}
+.game-contect{
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 25px 0;
+}
+.game-img{
+    width: 100%;
+    height: 100%;
+}
+.game-img img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border: 3px solid transparent;
+      }
+.game-img p{
+    text-align: left;
+}
+.icon {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.games{
+    position: relative;
+}
+.video{
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgba(0, 0, 0, 0.54);
+    border-radius: 15px;
+    border: 3px solid #F948B2;
+  }
+  .game-img:hover .overlay {
+    opacity: 1;
+    color: white;
+  }
 
 
 
@@ -149,7 +226,7 @@ body {
 
 /* Responsive for small desvices  */
 @media screen and (max-width: 576px) {
-    .nav-bar, .menu, .banner-container {
+    .nav-bar, .menu, .banner-container, .game-contect {
         flex-direction: column;
         padding: 25px 0;
     }
@@ -160,6 +237,13 @@ body {
         width: 90%;
         margin: 0 auto;
     }
+    .pic{
+        position: relative;
+    }
+    #online-video-games{
+        margin-top: 250px;
+    }
+    
 }
 /* Responsive for medium devices  */
 @media screen and (min-width: 576px) and (max-width: 992px) {
