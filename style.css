@@ -400,14 +400,13 @@ p {
 @media screen and (min-width: 576px) and (max-width: 992px) {
 
     .nav-bar,
-    .banner-container {
+    .banner-container,.game-contect,
+    .features-game-content,
+    .tag-games-content, 
+    .tag-games-content2 {
         flex-direction: column;
         row-gap: 25px;
     }
-    .game-contect{
-        flex-direction: column;
-    }
-
     .banner-contents {
         padding: 70px;
     }
@@ -416,5 +415,30 @@ p {
     .pic img {
         width: 90%;
         margin: 0 auto;
+    }
+    .content-left {
+        width: 100%;
+        margin-left: 0;
+    }
+    .content-right {
+        width: 100%;
+    }
+    .content-right img{
+        width: 100%;
+    }
+    .content-image img{
+        width: 50%;
+    }
+    .girl {
+        position: absolute;
+        top: 70%;
+        left: 20%;
+    }
+    #tag-games,
+    #online-video-games{
+        margin-top: 150px;
+    }
+    .banner-container{
+        min-height: 950px;
     }
 }
