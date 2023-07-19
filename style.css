@@ -356,31 +356,26 @@ p {
     .tag-games-content2,
     .nav-bar,
     .menu,
-    .banner-container,
     .game-contect,
-    .features-game-content, 
-    .footer-menu{
+    .footer-menu,
+    .banner-container,
+    .features-game-content{
         flex-direction: column;
         padding: 25px 0;
     }
-
     .banner-contents {
         padding: 50px;
     }
-
     .pic img {
         width: 90%;
         margin: 0 auto;
     }
-
     .pic {
         position: relative;
     }
-
     #online-video-games {
         margin-top: 250px;
     }
-
     .content-left {
         width: 100%;
         margin-left: 0;
@@ -408,6 +403,9 @@ p {
     .banner-container {
         flex-direction: column;
         row-gap: 25px;
+    }
+    .game-contect{
+        flex-direction: column;
     }
 
     .banner-contents {
