@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+   
 }
 
 body {
@@ -111,14 +111,10 @@ body {
     list-style: none;
     padding: 8px 0;
 }
-.banner{
-   height: 550px;
-}
+
 .banner-container{
     display: flex;
-    align-items: center;
-    
-    /* justify-content: space-between; */
+    justify-content: center;
 }
 .banner-contents{
     background-image: url('./images/Group\ 14.png');
@@ -126,15 +122,15 @@ body {
     background-position: left, bottom;
     background-size: contain;
     padding: 150px 150px;
-    width: 50%;
+    width: calc((100% - 300px)/2);
 }
 .banner-pic {
-    /* min-height: 50%;
-    width: 100%; */
+    width: 50%;
 }
+
 .pic .width{
-    width: 90%;
-    height: 100%;
+    /* padding: 150px 150px;
+    width: 60%; */
 }
 
 
