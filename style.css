@@ -149,15 +149,30 @@ body {
 
 /* Responsive for small desvices  */
 @media screen and (max-width: 576px) {
-    .nav-bar, .menu{
+    .nav-bar, .menu, .banner-container {
         flex-direction: column;
         padding: 25px 0;
+    }
+    .banner-contents{
+        padding: 50px;
+    }
+    .pic img{
+        width: 90%;
+        margin: 0 auto;
     }
 }
 /* Responsive for medium devices  */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    .nav-bar{
+    .nav-bar, .banner-container{
         flex-direction: column;
         row-gap: 25px;
+    }
+    .banner-contents{
+        padding: 70px;
+    }
+    .pic,
+    .pic img{
+        width: 90%;
+        margin: 0 auto;
     }
 }
